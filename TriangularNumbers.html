@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Triangular Numbers</title>
+<script>
+
+function getNthTriangularNumber(int n){
+    sum = 0;
+    for(int i=1; i<=n; i++){
+        sum += i
+    }
+    return sum;
+}
+
+var n = promt("Enter index of desired triangle number [1-n]", "n");
+
+document.write("the " + n + ":th triangel number is " + getNthTriangularNumber(n));
+</script>
+</head>
+</html>
